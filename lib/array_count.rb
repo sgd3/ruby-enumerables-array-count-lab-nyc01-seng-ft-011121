@@ -1,4 +1,4 @@
-array = [1, "hello", [], 5.01, "world", :name, { a: 1 }]
+array = ["", "hello", "world", 4, 1, 5, [], {}]
 
 
 def count_strings(array)
