@@ -12,15 +12,8 @@ array.count do |element|
   element.empty?
 end
 end
-  
-string_array = []
-count = 0
-while count < array.length
-if array[count].is_a? String
-  string_array << array[count]
-end
-  count +=1
-end
+
+
 
 
 
