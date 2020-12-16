@@ -7,6 +7,12 @@ array.count do |element|
 end
 
 def count_empty_strings(array)
+array.delete_if { |obj| !(obj.is_a? String) }
+array.count do |element|
+  element.empty?
+end
+end
+  
 string_array = []
 count = 0
 while count < array.length
@@ -15,6 +21,8 @@ if array[count].is_a? String
 end
   count +=1
 end
+
+
 
 string_array.count do |element|
   element.empty?
