@@ -11,7 +11,7 @@ array.delete_if { |obj| !(obj.is_a? String) }
 array.count do |element|
   element.empty?
 end
-end
+
 
 
 
